@@ -24,7 +24,7 @@ docker build -t utp .
 
 3. Run: 
 ```
-docker container run --detach -p 80:80 utp
+docker container run --detach -p 80:80 $DOCKERID/utp:1.0
 
 # p for publish 
 ```
