@@ -11,7 +11,7 @@ git clone https://github.com/lisatwyw/UTP/
 2. Build: 
 ```
 cd UTP
-echo $DOCKERID=<your docker id>
+export $DOCKERID=<your docker id>
 docker image build --tag $DOCKERID/utp:1.0 .  
 
 # notes: period after whitespace and lowercase when spelling utp
