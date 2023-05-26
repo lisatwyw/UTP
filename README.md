@@ -17,3 +17,8 @@ docker build -t utp .
 ```
 docker container run --detach -p 80:80 utp
 ```
+
+# References  
+
+- [DockerSamples](https://github.com/dockersamples/linux_tweet_app/tree/master)
+- [Docker image examples](https://github.com/techiescamp/docker-image-examples) 
