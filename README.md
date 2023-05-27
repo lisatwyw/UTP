@@ -47,7 +47,7 @@ http://ip172-19-0-37-chok4tbqes6000cn7shg-8080.direct.labs.play-with-docker.com/
 ## Level up
 [Last tested May 26, 2023]
 
-Try more advanced example written by [TechiesCamp](https://github.com/techiescamp/docker-image-examples)
+Try more advanced example written by [Xavier Vasques](https://towardsdatascience.com/build-and-run-a-docker-container-for-your-machine-learning-model-60209c2d7a7f)
 
 1. Clone
 ```
@@ -71,3 +71,4 @@ docker run docker-ml-model python3 inference.py
 
 - [DockerSamples](https://github.com/dockersamples/linux_tweet_app/tree/master)
 - [Docker image examples](https://github.com/techiescamp/docker-image-examples) 
+- ['''A quick and easy build of a Docker container with a simple machine learning model''' by Xavier Vasque](https://towardsdatascience.com/build-and-run-a-docker-container-for-your-machine-learning-model-60209c2d7a7f)
