@@ -72,3 +72,4 @@ docker run docker-ml-model python3 inference.py
 - [DockerSamples](https://github.com/dockersamples/linux_tweet_app/tree/master)
 - [Docker image examples](https://github.com/techiescamp/docker-image-examples) 
 - ["A quick and easy build of a Docker container with a simple machine learning model" by Xavier Vasque](https://towardsdatascience.com/build-and-run-a-docker-container-for-your-machine-learning-model-60209c2d7a7f)
+- [Cheat sheets](https://kapeli.com/cheat_sheets/Dockerfile.docset/Contents/Resources/Documents/index)
