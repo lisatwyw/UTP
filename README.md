@@ -52,7 +52,7 @@ Try more advanced example written by [Xavier Vasques](https://towardsdatascience
 1. Clone
 ```
 git clone https://github.com/xaviervasques/EEG-letters.git
-cd EET-letters
+cd EEG-letters
 ```
 
 2. Build (includes pip installations and training using ```train.py```)
