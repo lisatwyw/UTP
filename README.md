@@ -31,6 +31,7 @@ docker container run --detach -p 80:80 $DOCKERID/utp:1.0
 
 
 ## Try it
+[Last tested May 26, 2023]
 
 1. Try repeat above at [Docker classroom](https://training.play-with-docker.com/beginner-linux/). 
 
@@ -40,7 +41,31 @@ http://ip172-19-0-37-chok4tbqes6000cn7shg-8080.direct.labs.play-with-docker.com/
 3. After waiting for the server, you should hopefully see a webpage displayed:
 ![Screenshot 2023-05-26 at 16-36-36 Screenshot](https://github.com/lisatwyw/UTP/assets/38703113/7fdbe77a-2dc0-4aeb-a108-16e7ba9703e4)
 
-Last tested May 26, 2023
+ 
+
+
+## Level up
+[Last tested May 26, 2023]
+
+Try more advanced example written by [TechiesCamp](https://github.com/techiescamp/docker-image-examples)
+
+1. Clone
+```
+$ git clone https://github.com/xaviervasques/EEG-letters.git
+$ cd EET-letters
+```
+
+2. Build (includes pip installations and training using ```train.py```)
+```
+docker build -t docker-ml-model -f Dockerfile .
+```
+ 
+3. Test on new data by calling ```inference.py```
+```
+docker run docker-ml-model python3 inference.py
+```
+
+
 
 # References  
 
