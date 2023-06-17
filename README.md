@@ -1,24 +1,24 @@
-# UTP
+# U-Net variants 
 
 
 ## Usage notes
 
 1. Clone
 ```
-git clone https://github.com/lisatwyw/UTP/
+git clone https://github.com/lisatwyw/unet_variants/
 ```
 
 2. Build: 
 ```
-cd UTP
+cd unet_variants
 export DOCKERID=<your docker id>
 docker image build --tag $DOCKERID/utp:1.0 .  
 
-# notes: period after whitespace and lowercase when spelling utp
+# notes: period after whitespace and lowercase when spelling unet_variants
 ```
 
 ```
-docker build -t utp .
+docker build -t unet_variants .
 ```
 
 
